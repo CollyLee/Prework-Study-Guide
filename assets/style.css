@@ -40,6 +40,7 @@ img {
 ul {
     padding-left: 40px;
     font-size: 20px;
+    margin: 15px auto;
 }
 
 p {
@@ -49,7 +50,7 @@ p {
   
 .card {
     width: 80%;
-    margin: 40px auto;
+    margin: 30px auto;
     border: 5px solid  rgb(105, 129, 96);
     box-shadow: 5px 10px  #a4c19a;
 }
