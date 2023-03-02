@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(236, 227, 252);
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(236, 227, 252);
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(232, 251, 225);
+    color: rgb(0, 0, 0);
+}
+
+img {
+    display: block;
+    height: 150px;
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(0, 0, 0)
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid  rgb(105, 129, 96);
+    box-shadow: 5px 10px  #a4c19a;
+}
