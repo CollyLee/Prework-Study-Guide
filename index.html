@@ -20,11 +20,14 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
      <ul>
-       <li>most meta elements are not visible to the user (except title)</li>
+       <li>Most meta elements are not visible to the user (except title)</li>
        <li>h1 headers should only be used once per webpage</li>
-       <li>the head element contains information about the webpage</li>
-       <li>the body element represents the visible content shown to the user</li>
-       <li>elements nested under an element (parent) are referred to as a child element</li>
+       <li>Almost all HTML elements have an opening and closing tag</li>
+       <li>Formatting the coding itself with line breaks, indents, etc do not affect the appearance of the final product</li>
+       <li>The head element contains information about the webpage</li>
+       <li>The body element represents the visible content shown to the user</li>
+       <li>Elements nested under an element (parent) are referred to as a child element</li>
+       <li>You can apply classifications to sections (class), such as cards. This makes it easy to apply CSS attributes to those sections in particular</li>
      </ul>
       </section>
       <section class="card" id="css-section">
@@ -32,33 +35,58 @@
       <ul>
         <li>CSS is the code that tells the browser what the content should look like</li>    
         <li>CSS work is referred to as front-end development (UI)</li> 
-        <li>the HTML file needs to contain a link in the header to recognize its connection to the CSS file</li>
-        <li>margin indicates how much space we want around the outside of an element.</li>
-        <li>padding indicates how much space we want around the content inside an element.</li>
-        <li>you can assign a class to sections of your HTML body, and then apply CSS rules to those specific classes</li>
+        <li>The HTML file needs to contain a link in the header to recognize its connection to the CSS file</li>
+        <li>Margin indicates how much space we want around the outside of an element</li>
+        <li>Padding indicates how much space we want around the content inside an element</li>
+        <li>You can assign a class to sections of your HTML body, and then apply CSS rules to those specific classes</li>
+        <li>CSS rules can be applied to classes, or to specific elements such as footer, h1, etc.</li>
+        <li>Colors can be applied to fonts, backgrounds, etc. through various codes such as rgb, hex, etc.</li>
       </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently working on in bash</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>a repo (repository) is where all of the files for a project go</li>
-          <li>coding and modifications should always happen on a different branch from the main</li>
-          <li>to merge coding to the main branch, a pull request needs to be submitted, approved by the team, and then finally merged into the main branch</li>
+
+          <li>A repo (repository) is where all of the files for a project go</li>
+          <li>Repos contain the coding files, the README file, and any additional assets to make the product work</li>
+          <li>Coding and modifications should always happen on a different branch from the main</li>
+          <li>To merge coding to the main branch, a pull request needs to be submitted, approved by the team, and then finally merged into the main branch</li>
+          <li>When approving a pull request, always double-check to make sure the correct branches are being merged in the right direction (working branch to the main branch)</li>
+          <br>
+          
         </ul>
+          <h3> (Bash Git Flow) </h3> 
+        <ol> 
+          
+          <h5>Before sitting down to code:</h5>
+          <li><u>git status</u>: checks what branch we are currently working on in bash</li>
+          <li><u>git pull origin main</u>: pull the remote main branch into the local main branch to sync up the local and remote versions</li>
+          <li><u>git checkout |name of branch|</u>: change git flow to an existing branch</name></li>
+          <li><u>git checkout -b |branch-name|</u>: creates a new branch and switches to it</li> <br>
+        </ol> 
+        
+        <ol>
+        <h5>After finishing your coding:</h5>
+          <li><u>git status</u>: double check to make sure you're still in the right branch!</li>
+          <li><u>git add -A</u>: stage the changes you made on your feature branch</li>
+          <li><u>git commit -m "|a brief summary of the branch|"</u>: commit your changes to the repository, and provide a brief summary of what this new branch is adding to the project</li>
+          <li><u>git pull origin main</u>: make sure you local main branch and remote main branch are in sync</li>
+          <li><u>git push origin |name of branch|</u>: send the pull request to GitHub</li>
+
+
+        </ol>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
           <ul>
             <li>JavaScript adds interactivity to webpages</li>
-            <li>for JavaScript coding, the order of your lines matters; for example, you need to first define your variable before logging it to the console</li>
+            <li>For JavaScript coding, the order of your lines matters; for example, you need to first define your variable before logging it to the console</li>
             <li>A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false. All other values, including a Boolean with the value of true, are considered truthy. (lesson 3.3.4)</li>
-            <li>a variable is a named container that allows us to store data in our code</li>
-            <li>control flow is the order in which a computer executes code in a script</li>
-            <li>you can randomize which choice in an array is selected using math functions</li>
+            <li>A variable is a named "container" that allows us to store data in our code (in the case of this study guide, the variable is TOPICS, and the TOPICS variable contains HTML, CSS, Git, and JavaScript</li>
+            <li>Control flow is the order in which a computer executes code in a script</li>
+            <li>You can randomize which choice in an array is selected using MATH functions</li>
           </ul>
       </section>
     </main>
