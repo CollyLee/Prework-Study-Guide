@@ -19,13 +19,15 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
     text-align: center;
 }
 
 body {
     background-color: #FFF4e1;
-    color: rgb(0, 0, 0);
+    color: #23263e;
 }
 
 img {
@@ -40,6 +42,13 @@ img {
 ul {
     padding-left: 40px;
     font-size: 20px;
+    margin: 15px auto;
+}
+
+
+ol {
+    padding-left: 40px;
+    font-size: 17px;
     margin: 15px auto;
 }
 
